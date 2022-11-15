@@ -13,8 +13,8 @@ class Interface_test(unittest.TestCase):
         print(json.dumps(response.json(),indent=4,ensure_ascii=False))
 
 #文件路径
-#Testcase_dir = 'C:\\Users\\EDY\PycharmProjects\\AutoTest\\api_test'
-Testcase_dir ="../api_test"
+Testcase_dir = 'C:\\Users\\EDY\PycharmProjects\\AutoTest\\api_test'
+#Testcase_dir ="../api_test"
 
 #测试报告名称前加时间戳
 #now=time.strftime("%Y-%m-%d %H_%M_%S")
